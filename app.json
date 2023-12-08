@@ -82,6 +82,10 @@
       "description": "Input TRUE if you want bot to send welcome message to new members.",
       "required": false
 },
+ "ONLINE": {
+      "description": "Input TRUE if you want bot to show online as last seen.",
+      "required": false
+},
  "ANTIFOREIGN": {
       "description": "Input TRUE if you want bot to kick non-kenyan numbers joining.",
       "required": false
