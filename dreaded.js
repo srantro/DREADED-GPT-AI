@@ -465,7 +465,6 @@ Below is my command list.
 ▮➣Broadcast
 ▮➣Join
 ▮➣Botpp
-▮➣>
 ▮➣Block
 ▮➣Kill
 ▮➣Unblock
