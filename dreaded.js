@@ -451,7 +451,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
         case "menu":
 let cap = `┌───═[ ${botname} ]═──▸
 
-▯ 𝖭𝖺𝗆𝖾: ꜱᴀɴᴛᴏꜱ-ᴋᴇ 💭
+▯ 𝖭𝖺𝗆𝖾: ★彡[𝐒𝐀𝐍𝐓𝐎𝐒]彡★
 Hello ${m.pushName}
 This is a simple WhatsApp Bot.
 Below is my command list.
