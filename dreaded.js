@@ -108,6 +108,7 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
 const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
+const online = process.env.ONLINE || 'TRUE';
 
 function _0xfb25(_0x4763fd, _0xf70ff) {
     const _0x6abf0e = _0x1492();
