@@ -450,7 +450,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `┌───═[ 𝟔𝐰𝐳𝐝𝐛𝐫 ]═──▸
+let cap = `┌───═[ ★彡[ꜱᴀɴᴛᴏꜱ]彡★ ]═──▸
 
 ▯ Welcome to my menu
 It's ${botname}
