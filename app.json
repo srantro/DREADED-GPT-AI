@@ -1,5 +1,5 @@
 {
-  "name": "TANO NANE BOT",
+  "name": "DREADED BOT",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -80,10 +80,6 @@
 },
  "WELCOME": {
       "description": "Input TRUE if you want bot to send welcome message to new members.",
-      "required": false
-},
- "ONLINE": {
-      "description": "Input TRUE if you want bot to show online as last seen.",
       "required": false
 },
  "ANTIFOREIGN": {
