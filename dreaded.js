@@ -48,7 +48,7 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'TANO NANE BOT';
+const botname = process.env.BOTNAME || 'dreaded BOT';
 const antibot = process.env.ANTIBOT || 'TRUE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -80,12 +80,12 @@ const antibot = process.env.ANTIBOT || 'TRUE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR || '★彡[ꜱᴀɴᴛᴏꜱ]彡★';
-const maindev = '254704606054';
+    const author = process.env.STICKER_AUTHOR || 'fortunatus';
+const maindev = '254114018035';
 const maindev2 = maindev.split(",");
 
-    const packname = process.env.STICKER_PACKNAME || '𝟔𝐰𝐳𝐝𝐛𝐫';
-const dev = process.env.DEV || '254704606054'
+    const packname = process.env.STICKER_PACKNAME || 'dreaded';
+const dev = process.env.DEV || '254114018035'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
@@ -108,7 +108,6 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
 const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
-const online = process.env.ONLINE || 'TRUE';
 
 function _0xfb25(_0x4763fd, _0xf70ff) {
     const _0x6abf0e = _0x1492();
@@ -450,27 +449,24 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `┌───═[ ★彡[ꜱᴀɴᴛᴏꜱ]彡★ ]═──▸
+let cap = `┌───═[ 𝐒𝐇𝐄𝐁𝐀𝐍 𝐁𝐎𝐓 ]═──▸
 
-▯ Welcome to my menu
-It's ${botname}
-This is a simple WhatsApp Bot.
-Below is my command list.
+▯ ʜᴇʟʟᴏ ɪᴛ'ꜱ (ᴅʀᴇᴀᴅᴇᴅ ʙᴏᴛ) ᴛʜɪꜱ ɪꜱ ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ. ʙᴇʟᴏᴡ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.
 ▯
 ▯
 └───────────────···▸
 ┌───〈 𝗢𝗪𝗡𝗘𝗥 〉───◆
 ▯╭────────────···▸
 ┴│▸
-▮➣Admin
-▮➣Broadcast
-▮➣Join
-▮➣Botpp
-▮➣Block
-▮➣Kill
-▮➣Unblock
-▮➣Setvar
-▮➣Getvar
+▮➣𝐀𝐝𝐦𝐢𝐧
+▮➣𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭
+▮➣𝐉𝐨𝐢𝐧
+▮➣𝐁𝐨𝐭𝐩𝐩
+▮➣𝐁𝐥𝐨𝐜𝐤
+▮➣𝐊𝐢𝐥𝐥
+▮➣𝐔𝐧𝐛𝐥𝐨𝐜𝐤
+▮➣𝐒𝐞𝐭𝐯𝐚𝐫
+▮➣𝐆𝐞𝐭𝐯𝐚𝐫
 ┬│▸
 │╰─────────────···▸
 └───────────────···▸
@@ -478,60 +474,60 @@ Below is my command list.
 ┌───〈 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 〉───◆
 ▯╭─────────────···▸
 ┴│▸
-▮➣Sticker
-▮➣Toimg
-▮➣Upload
-▮➣Smeme
-▮➣Song
-▮➣Play
-▮➣Whatsong
-▮➣Owner
-▮➣Yts
-▮➣Ytmp3 
-▮➣Ytmp4
-▮➣Lyrics
-▮➣Movie
-▮➣Mix
-▮➣Ai-img
-▮➣Gpt
-▮➣Ai
-▮➣DP
-▮➣Speed
-▮➣Alive
-▮➣Runtime
-▮➣Credits
-▮➣Enc
-▮➣Compile-py
-▮➣Compile-js
-▮➣Compile-c
-▮➣Compile-c++
-▮➣Script
-▮➣Owner
-▮➣Vars
-▮➣Mail
-▮➣Inbox
+▮➣𝐒𝐭𝐢𝐜𝐤𝐞𝐫
+▮➣𝐓𝐨𝐢𝐦𝐠
+▮➣𝐔𝐩𝐥𝐨𝐚𝐝
+▮➣𝐒𝐦𝐞𝐦𝐞
+▮➣𝐒𝐨𝐧𝐠
+▮➣𝐏𝐥𝐚𝐲
+▮➣𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠
+▮➣𝐎𝐰𝐧𝐞𝐫
+▮➣𝐘𝐭𝐬
+▮➣𝐘𝐭𝐦𝐩𝟑 
+▮➣𝐘𝐭𝐦𝐩𝟒
+▮➣𝐋𝐲𝐫𝐢𝐜𝐬
+▮➣𝐌𝐨𝐯𝐢𝐞
+▮➣𝐌𝐢𝐱
+▮➣𝐀𝐢-𝐢𝐦𝐠
+▮➣𝐆𝐩𝐭
+▮➣𝐀𝐢
+▮➣𝐃𝐏
+▮➣𝐒𝐩𝐞𝐞𝐝
+▮➣𝐀𝐥𝐢𝐯𝐞
+▮➣𝐑𝐮𝐧𝐭𝐢𝐦𝐞
+▮➣𝐂𝐫𝐞𝐝𝐢𝐭𝐬
+▮➣𝐄𝐧𝐜
+▮➣𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐩𝐲
+▮➣𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐣𝐬
+▮➣𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐜
+▮➣𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐜++
+▮➣𝐒𝐜𝐫𝐢𝐩𝐭
+▮➣𝐎𝐰𝐧𝐞𝐫
+▮➣𝐕𝐚𝐫𝐬
+▮➣𝐌𝐚𝐢𝐥
+▮➣𝐈𝐧𝐛𝐨𝐱
 ┬│▸
 │╰────────────··
 ┌───〈 𝗔𝗗𝗠𝗜𝗡 〉───◆
 ▯╭─────────────···▸
-▮➣Promote
-▮➣Demote
-▮➣Delete
-▮➣Remove
-▮➣Foreigners
-▮➣Faker
-▮➣Close
-▮➣Open
-▮➣Disp-off
-▮➣Disp-7
-▮➣Disp-90
-▮➣Icon
-▮➣Subject
-▮➣Desc
-▮➣Leave
-▮➣Tagall
-▮➣Hidetag
-▮➣Revoke
+▮➣𝐏𝐫𝐨𝐦𝐨𝐭𝐞
+▮➣𝐃𝐞𝐦𝐨𝐭𝐞
+▮➣𝐃𝐞𝐥𝐞𝐭𝐞
+▮➣𝐑𝐞𝐦𝐨𝐯𝐞
+▮➣𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬
+▮➣𝐅𝐚𝐤𝐞𝐫
+▮➣𝐂𝐥𝐨𝐬𝐞
+▮➣𝐎𝐩𝐞𝐧
+▮➣𝐃𝐢𝐬𝐩-𝐨𝐟𝐟
+▮➣𝐃𝐢𝐬𝐩-𝟕
+▮➣𝐃𝐢𝐬𝐩-𝟗𝟎
+▮➣𝐈𝐜𝐨𝐧
+▮➣𝐒𝐮𝐛𝐣𝐞𝐜𝐭
+▮➣𝐃𝐞𝐬𝐜
+▮➣𝐋𝐞𝐚𝐯𝐞
+▮➣𝐓𝐚𝐠𝐚𝐥𝐥
+▮➣𝐇𝐢𝐝𝐞𝐭𝐚𝐠
+▮➣𝐑𝐞𝐯𝐨𝐤𝐞
 ┃✵╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷`;
 
@@ -555,7 +551,7 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `TANO NANE BOT`,
+                                title: `DREADED BOT`,
                                 body: `A simple WhatsApp bot.`,
                                 thumbnail: fs.readFileSync('./dreaded.jpg'),
                                 sourceUrl: `https://github.com/Fortunatusmokaya/DREADED-GPT-AI`,
